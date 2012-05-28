@@ -3,10 +3,62 @@ cc.exe
 cc_test.bat
 cc.ctf
 
-# Compiled Dynamic libraries
-*.so
+# m - files
+- classification
+analyseimage.m
+bayescount.m
+bayesdatademo.m
+byesdemo.m
+byestest.m
+bayestrain.m
+createandanalyse.m
+createdata.m
+manualcount.m
+manualimagecount.m
+manualtrain.n
+- GUI
+cc.m
+colonycount.fig
+colonycount.m
+counting.m
+loadimage.m
+make_cc.m
+- imageprocessing
+backgroundColor.m
+binAdaptive.m
+calculateAdaptive.m
+cleanImage.m
+cutFailures.m
+cutFrame.m
+cutTemplates.m
+features.m
+graythreshCircle.m
+preprocessing.m
+removeFalseSize.m
+segmentation.m
+seperate.m
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+# libraries
+- lib
+confusion.m
+cut.m
+cutout.m
+imoverlay.m
+imvisual.fig
+imvisual.m
+mhist.m
+show.m
+ueye.m
+uyee.mexw32
+-- ueye
+make_ueye
+ueye.cpp
+ueye_full.cpp
+-- cvlib
+cv100.dll
+cvlib_mex.dll
+cvlib_mex.mexw32
+cxcore100.dll
+libguide40.dll
+makecvlib.m
+README.txt
